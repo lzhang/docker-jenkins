@@ -14,7 +14,7 @@ $ sudo docker pull lzhang/jenkins
 Run the container:
 
 ```sh
-$ JENKINS_CONTAINER=$(sudo docker run -h 'localhost' -p 8080:8080 -d lzhang/docker)
+$ JENKINS_CONTAINER=$(sudo docker run -h 'localhost' -p 8080:8080 -d lzhang/jenkins)
 ```
 
 Jenkins will be available on the host machine at port 8080. Specify the 
